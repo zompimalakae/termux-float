@@ -9,6 +9,9 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "com.github.HardcodedCat.termux-monet:termux-shared"
+      - dependency-name: "com.github.HardcodedCat.termux-monet:terminal-view"
 
   - package-ecosystem: "github-actions"
     directory: "/" # Location of package manifests
