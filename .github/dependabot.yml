@@ -9,6 +9,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    rebase-strategy: "disabled"
     ignore:
       - dependency-name: "com.github.HardcodedCat.termux-monet:termux-shared"
       - dependency-name: "com.github.HardcodedCat.termux-monet:terminal-view"
@@ -17,3 +18,4 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    rebase-strategy: "disabled"
