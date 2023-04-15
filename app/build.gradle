@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "com.termux.window"
     compileSdkVersion project.properties.compileSdkVersion.toInteger()
     def appVersionName = System.getenv("TERMUX_FLOAT_APP_VERSION_NAME") ?: ""
     def apkVersionTag = System.getenv("TERMUX_FLOAT_APK_VERSION_TAG") ?: ""
